@@ -8,10 +8,10 @@ import re
 client = NotionClient(
     token_v2="a7b0734a7f2628d6646d749a00d7ebfbe0bbe37df0d4b1babfff5b1a09145d94216396b895a19e13cf5c870c7f7a1bda4c3eacab999d9f87cb0597b0f0e2689d5e2d69a7a23e7028800051e919cb")
 page = client.get_block(
-    "https://www.notion.so/test2-8a2416f436af4645b44134f7d4b186c4")
+    "https://www.notion.so/514f0634a49a4618a31076f0f4f2483c")
 
-file_path = "E:\Lab\PID Control"
-file_name = "PID Control"
+file_path = r"E:\Notes\Dot Product & Cross Product"
+file_name = "Dot Product & Cross Product"
 
 # enable while network environment is good
 enable_pictures = 1
